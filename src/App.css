@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  justify-items: center;
+  text-align: center;
+}
+
+.App.bg1 {
+  background-image: url(/public/fortuna-1/bg1.png);
+}
+
+.App.bg2 {
+  background-image: url(/public/fortuna-1/bg2.png);
+}
+
+.App.bg3 {
+  background-image: url(/public/fortuna-1/bg3.png);
+}
+
+.App.bg4 {
+  background-image: url(/public/fortuna-1/bg4.png);
+}
+.App__container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  align-items: center;
+  justify-items: center;
+  width: min(100%, 300px);
+  padding: 0 10px;
+}
